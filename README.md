@@ -9,10 +9,21 @@ networks to model both uncertainty inherent to the data (aleatory uncertainty) a
 modelling (epistemic uncertainty).
 
 Aleatory uncertainty modelling is a somewhat solved problem whereas the problem of
-converting epistemic uncertainty into aleatory uncertainty is largely unsolved. See the notebook for more details and some nice plots.
+converting epistemic uncertainty into aleatory uncertainty is largely unsolved. 
 
-## Plots
-![Data generating function](https://github.com/JakobHavtorn/uqdl/blob/master/plots/data-generating-function.pdf)
+Here we simulate a certain data generating function
+
+![Data generating function](https://github.com/JakobHavtorn/uqdl/plots/data-generating-function.png)
+
+and train a number of different models to predict it along with its aleatory uncertainty and potentialyl the epistemic uncertainty arising in regions of little or no training data.
+
+![Evaluation of the MCD Model](https://github.com/JakobHavtorn/uqdl/plots/MCDModel-evaluation.png)
+![Evaluation of the DPL Model](https://github.com/JakobHavtorn/uqdl/plots/DPLModel-evaluation.png)
+![Evaluation of the Ensemble DPL Model](https://github.com/JakobHavtorn/uqdl/plots/EnsembleDPLModel-evaluation.png)
+![Evaluation of the MCDDPL Model](https://github.com/JakobHavtorn/uqdl/plots/MCDDPLModel-evaluation.png)
+
+
+See the notebook for more details and implementation.
 
 ## Installation
 
