@@ -12,7 +12,7 @@ Aleatory uncertainty modelling is a somewhat solved problem whereas the problem 
 converting epistemic uncertainty into aleatory uncertainty is largely unsolved. See the notebook for more details and some nice plots.
 
 ## Plots
-![Data generating function](plots/data-generating-function.pdf)
+![Data generating function](https://github.com/JakobHavtorn/uqdl/plots/data-generating-function.pdf)
 
 ## Installation
 
