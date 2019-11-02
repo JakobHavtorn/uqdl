@@ -11,6 +11,9 @@ modelling (epistemic uncertainty).
 Aleatory uncertainty modelling is a somewhat solved problem whereas the problem of
 converting epistemic uncertainty into aleatory uncertainty is largely unsolved. See the notebook for more details and some nice plots.
 
+## Plots
+![Data generating function](plots/data-generating-function.pdf)
+
 ## Installation
 
 Make a python 3.7.4 environment and install the requirements:
