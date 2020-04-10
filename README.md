@@ -14,7 +14,7 @@ Aleatory uncertainty modelling is in some aspects a solved problem whereas the p
 
 Here we simulate a certain data generating function
 
-![Data generating function](https://github.com/JakobHavtorn/uqdl/plots/data-generating-function.png)
+![Data generating function](https://github.com/JakobHavtorn/uqdl/blob/plots/data-generating-function.png)
 
 and train a number of different models to predict it along with its aleatory uncertainty and potentialyl the epistemic uncertainty arising in regions of little or no training data.
 
