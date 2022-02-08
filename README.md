@@ -26,7 +26,7 @@ All models are able to decently capture the aleatory uncertainty in the data wit
 Another very important observation is the fact that the accuracy on out-of-distribution data for all of these models is extremely dependent on the curvature of the training data at the limits of the training domain and on initial conditions. If the trainnig data exhibits a tendency that continues into the testing-domain, this can sometimes be captured fairly well, although not always. The strength of neural networks lies in interpolation. This is behaviour makes the usefulness of these models in estimating epistemic uncertainty very limited at this time.
 
 ### Monte Carlo Dropout Model
-![Evaluation of the MCD Model](https://github.com/JakobHavtorn/uqdl/blob/master/plots/DPLModel-evaluation.png)
+![Evaluation of the MCD Model](https://github.com/JakobHavtorn/uqdl/blob/master/plots/MCDModel-evaluation.png)
 ### Distributional Parameter Learning Model
 ![Evaluation of the DPL Model](https://github.com/JakobHavtorn/uqdl/blob/master/plots/DPLModel-evaluation.png)
 ### Ensemble of DPL Models
